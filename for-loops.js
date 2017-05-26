@@ -20,9 +20,44 @@ var presidents = [
   "John Quincy Adams",
   "Andrew Jackson",
   "Martin Van Buren",
-  "William Henry Harrison"
+  "William Henry Harrison",
+  "John Tyler",
+	"James K. Polk",
+	"Zachary Taylor",
+	"Millard Fillmore",
+	"Franklin Pierce",
+	"James Buchanan",
+	"Abraham Lincoln",
+	"Andrew Johnson",
+	"Ulysses Grant",
+	"Rutherford B. Hayes",
+	"James Garfield",
+	"Chester A. Arthur",
+	"Grover Cleveland",
+	"Benjamin Harrison",
+	"Grover Cleveland",
+	"William McKinley",
+	"Theodore Roosevelt",
+	"William Taft",
+	"Woodrow Wilson",
+	"Warren Harding",
+	"Calvin Coolidge",
+	"Herbert Hoover",
+	"Franklin  Roosevelt",
+	"Harry  Truman",
+	"Dwight Eisenhower",
+	"John F. Kennedy",
+	"Lyndon Johnson",
+	"Richard Nixon",
+	"Gerald Ford",
+	"Jimmy Carter",
+	"Ronald Reagan",
+	"George H. W. Bush",
+	"Bill Clinton",
+	"George W. Bush",
+	"Barack Obama"
 ]
-//
-for (var i = 0; i < presidents.length; i++) {
-	console.log(presidents[i]);
+// logging presidents to the console
+for (var i = 1; i <= presidents.length; i++) {
+	console.log(`President #${[i]} was ${presidents[i]}`);
 }
